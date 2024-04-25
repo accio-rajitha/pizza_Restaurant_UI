@@ -1,0 +1,421 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  .container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+   
+   
+
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+  .brand h1 {
+    font-size: 24px;
+    
+  }
+  .navi{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    
+  }
+  
+  .social-icons {
+    float: right;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .social-icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Main content styles */
+  .banner {
+    background-image: url('https://s3-alpha-sig.figma.com/img/f7fb/8767/a32abae68702adcaa404f19e085bc570?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b9vHk4A2HsXZ6UAKvBolQcSLNx~OxxfrHvELMkJS-t2TnRli9FT6Yi5s8q8Hvs6dhqOTg9duL8whhjUcoJyVKGRP1ERABbnVkYTQ6U5Jc8HWZJ-sRNoIpW~cDHwlHt5Yzy1QIngNqpVAYdxeCbjABYndbTLgwBuJaDtFuGXnikSTTyaTMQQMnRtUIXo34ClDTi5HqQ3zCIxHGjHsCoWtHihicgHEgt76jRtaplAL0VLqpRbhqqDlLsjuySuqWI9LOVcHlscksmNnZsD82eDcZXrs9M4fT9kkLeFGJmgesp6ijoHtQwotJNGM6irwmP2DTHfpSc2KCd2mbrIiJnY1Ng__');
+    background-size: cover;
+    color: #fff;
+    text-align: start;
+    padding: 100px 0;
+    
+height: 500px;
+
+
+
+  }
+  .head{
+   
+    width: 902px;
+height: 215px;
+margin-top: 50px;
+margin-left: 50px;
+  }
+  
+  .banner h2 {
+    font-size: 36px; 
+  }
+.line{
+    width: 200px;
+    height: 10px;
+    margin-left: 50px;
+    background: #F24C4C;
+    
+}
+.para{
+ width: 500px;
+height: 200px;
+margin-top: 50px;
+margin-left: 50px;
+margin-bottom: 100px;
+}
+  
+  .banner p {
+    font-size: 18px;
+  }
+
+  .about-us {
+    padding: 30px 0;
+  }
+  .about-us >h2{
+      margin-left: 46%;
+      margin-bottom: 50px;
+  }
+  
+.line2{
+    width: 300px;
+    height: 4px;
+    margin-left: 10px;
+    background: #F24C4C;
+      
+}
+  
+  .about-image {
+    width: 50%;
+    float: right;
+   
+  }
+  #block{
+    display: flex;
+    justify-content:center;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 20px;
+
+  }
+  .about-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu>h2{
+    margin-left: 47%;
+    margin-bottom: 50px;
+}
+.menu>p{
+   margin-left: 300px;
+   margin-right: 300px;
+   margin-bottom: 30px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    
+}
+.item{
+    display: flex;
+    align-self: center;
+}
+
+.menu-item img{
+   width:150px;
+   height:150px;
+}
+.con{
+    width: 200px;
+    height: 200px;
+}
+
+
+.caro{
+    width: 800px;
+    height:800px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#carousel{
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+  .caro img{
+    width:300px;
+    height: 600px;
+    
+  }
+  
+  .carousel-control-prev {
+    left: -20px;
+  }
+  
+  .carousel-control-next {
+    right: -20px;
+  }
+
+.gallary h2{
+    margin-left: 47%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+  .images{
+    display: flex;
+   justify-content: center;
+    
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+
+  .find-us{
+    margin-top: 30px;
+  }
+  #fi{
+    margin-left: 47%;
+    margin-bottom: 50px;
+  }
+  
+  .find {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .map-container {
+    flex: 1;
+    margin: 0 20px;
+    
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .contact-info p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info img {
+    width: 30px;
+    height: 30px;
+
+  }
+  .foot{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+  }
+  .foot img{
+    width: 100px;
+    height: 100px;
+  }
+  .contact img{
+    width: 30px;
+    height: 30px;
+  }
+  @media only screen and (max-width: 768px) {
+    /* Header */
+    .brand h1 {
+      font-size: 20px;
+      
+  }
+
+
+  /* About Us */
+  .about-image {
+      width: 100%;
+      float: none;
+      height: auto;
+  }
+    
+  .banner {
+    min-height: 200px; /* Adjust as needed for smaller screens */
+   
+}
+    
+
+    /* Banner */
+    
+
+    .head,
+    .para {
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+    }
+
+    .line,
+    .line2 {
+        margin-left: 20px;
+    }
+
+    /* About Us */
+    .about-us > h2 {
+        margin-left: auto;
+        text-align: center;
+    }
+
+   
+
+    #block {
+      display: inline-block;
+        margin: 20px;
+        justify-content: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: auto;
+    }
+
+    /* Menu */
+    .menu > h2 {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .menu > p {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .menu-item {
+        flex-direction: column;
+    }
+
+    .item {
+        align-self: center;
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Carousel */
+    .caro {
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+
+    #carousel {
+        margin: auto;
+    }
+
+    .caro img {
+        width: 100%;
+        height: auto;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        left: 10px;
+        right: 10px;
+    }
+
+    /* Gallery */
+    .gallary h2 {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .images {
+        margin: 20px;
+    }
+
+    /* Find Us */
+    .find-us {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #fi {
+        margin-left: auto;
+    }
+
+    .find {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .map-container,
+    .contact-info {
+        margin: 0 20px;
+    }
+
+    .foot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot img {
+        margin: 10px 0;
+    }
+
+    .contact img {
+        width: 20px;
+        height: 20px;
+    }
+}
+  
+  
+  
+  
