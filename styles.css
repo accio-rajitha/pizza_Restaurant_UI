@@ -1,37 +1,37 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
+
+/*body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
   }
-  
-  /* Global styles */
-  .container {
+  */
+  nav {
+    background-color: rgb(76, 32, 32);
+    /*background-color: #39170144;*/
+    color: #fff;
+    padding: 10px;
+    position: sticky;
+    top: 100px;
+   
+    width: 100vw;
+    box-shadow: 0px 10px 10px black;
     display: flex;
     align-content: center;
     justify-content: space-between;
-   
-   
-
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
+    width: 100vw;
+    
   }
   
   .brand h1 {
-    font-size: 24px;
+    font-size: 25px;
+    font-weight: 900;
+   
     
   }
   .navi{
     margin-left: 50px;
     margin-right: 50px;
+    
+    
   }
   nav ul {
     list-style-type: none;
@@ -40,6 +40,7 @@ body, h1, h2, h3, p, ul, li {
   nav ul li {
     display: inline-block;
     margin-right: 20px;
+   
   }
   
   nav ul li:last-child {
@@ -48,7 +49,8 @@ body, h1, h2, h3, p, ul, li {
   
   nav ul li a {
     text-decoration: none;
-    color: #333;
+   /* color: #333;*/
+    color: #fff;
     
   }
   
@@ -59,6 +61,7 @@ body, h1, h2, h3, p, ul, li {
   .social-icon {
     display: inline-block;
     margin-left: 10px;
+    margin-right: 20px;
   }
   
   .social-icon img {
@@ -66,148 +69,218 @@ body, h1, h2, h3, p, ul, li {
     height: 30px;
   }
   
-  /* Main content styles */
-  .banner {
-    background-image: url('https://s3-alpha-sig.figma.com/img/f7fb/8767/a32abae68702adcaa404f19e085bc570?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b9vHk4A2HsXZ6UAKvBolQcSLNx~OxxfrHvELMkJS-t2TnRli9FT6Yi5s8q8Hvs6dhqOTg9duL8whhjUcoJyVKGRP1ERABbnVkYTQ6U5Jc8HWZJ-sRNoIpW~cDHwlHt5Yzy1QIngNqpVAYdxeCbjABYndbTLgwBuJaDtFuGXnikSTTyaTMQQMnRtUIXo34ClDTi5HqQ3zCIxHGjHsCoWtHihicgHEgt76jRtaplAL0VLqpRbhqqDlLsjuySuqWI9LOVcHlscksmNnZsD82eDcZXrs9M4fT9kkLeFGJmgesp6ijoHtQwotJNGM6irwmP2DTHfpSc2KCd2mbrIiJnY1Ng__');
-    background-size: cover;
+  
+  #banner {
+    background-image: url('https://media.istockphoto.com/id/949903834/photo/indian-paneer-pizza-with-fresh-cottage-cheese-cubes-and-white-sauce.jpg?s=612x612&w=0&k=20&c=sb7osYrq3j8BItngXupV9isq_jljGxtwnxshUWIyo_Y=');
+    background-size: 100vw 50vw;
+    background-repeat: no-repeat;
     color: #fff;
-    text-align: start;
-    padding: 100px 0;
-    
-height: 500px;
-
-
-
+    box-sizing: border-box;
+    padding:1px 100px;   
+   /* text-align: start;
+    padding:  100px;
+    margin-top: 100px;  
+height: 500px;*/
   }
   .head{
    
     width: 902px;
-height: 215px;
-margin-top: 50px;
-margin-left: 50px;
-  }
-  
-  .banner h2 {
-    font-size: 36px; 
+    height: 215px;
+    margin-top: 50px;
+    margin-left: 50px;
   }
 .line{
-    width: 200px;
-    height: 10px;
-    margin-left: 50px;
-    background: #F24C4C;
-    
+  border: none;
+  border-top: 5px solid rgb(165, 21, 21);
+  margin-left: 50px;
+  margin-right: 70%;   
 }
 .para{
  width: 500px;
-height: 200px;
-margin-top: 50px;
-margin-left: 50px;
-margin-bottom: 100px;
+ height: 200px;
+ margin-top: 50px;
+ margin-left: 50px;
+ margin-bottom: 100px;
+ font-size: 15px;
+ font-weight: 400;
 }
-  
-  .banner p {
-    font-size: 18px;
-  }
 
-  .about-us {
-    padding: 30px 0;
-  }
-  .about-us >h2{
-      margin-left: 46%;
-      margin-bottom: 50px;
-  }
+
+
+.about-us{
+  width: 100vw;
+  height: 70vh;
+  background-color: black;
+  color: #fff;
+  padding-bottom: 10px;
   
-.line2{
-    width: 300px;
-    height: 4px;
-    margin-left: 10px;
-    background: #F24C4C;
-      
 }
-  
+.about-us >h2{
+  padding: 20px;
+      margin-left: 46%;
+      margin-bottom: 30px;
+      border-bottom: 5px solid brown;
+      width: 15%;
+     /* text-decoration: underline;
+      text-decoration-color: brown;*/
+  }
+ /* 
+.line2{
+   
+    border: none;
+    border-top: 5px solid rgb(165, 21, 21);
+    margin-left: 400px;
+    margin-right: 400px; 
+    margin-top: 0px;
+    padding-top: 0px;
+      
+}*/
+  /*
   .about-image {
     width: 50%;
     float: right;
    
-  }
+  }*/
   #block{
+   /* border: 1px solid black;*/
     display: flex;
-    justify-content:center;
-    margin-left: 300px;
-    margin-right: 300px;
+    justify-content:space-around;
     gap: 20px;
-
+    padding: 0px 250px;
+    align-items: stretch;
+   
   }
+  
   .about-image img {
     width: 100%;
     height: auto;
   }
+  .menu{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
+    
+  }
 
   .menu>h2{
-    margin-left: 47%;
-    margin-bottom: 50px;
+   /* margin-left: 47%;
+    margin-bottom: 50px;*/
+    padding: 20px;
+      margin-left: 48%;
+      margin-bottom: 30px;
+      border-bottom: 5px solid brown;
+      width: 10%;
+     
 }
 .menu>p{
-   margin-left: 300px;
-   margin-right: 300px;
+  
    margin-bottom: 30px;
+   padding: 0px 250px;
+
 }
 
 .menu-item{
     display: flex;
     justify-content: center;
+    padding: 0px 250px;
     
 }
 .item{
     display: flex;
-    align-self: center;
+    align-items: center;
+    padding: 10px;
+    align-items: stretch;
+    
+    
 }
 
 .menu-item img{
    width:150px;
-   height:150px;
+   height:200px;
+   padding-right: 5px;
+  
 }
 .con{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    padding: 1px 5px;
+    gap: 30px;
+    flex: start;
+    
+}
+.con>h4{
+  color: rgb(190, 124, 36);
+  font-size: 20px;
+}
+.con>p{
+  font-size: 12px;
 }
 
 
 .caro{
-    width: 800px;
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: #fff;
+  padding-top: 10px;
+  padding: 0px 250px;
+   /* width: 800px;
     height:800px;
     margin-left: 300px;
     margin-right: 300px;
+    background-color: black;*/
+}
+.caro>h2{
+      padding: 20px;
+      margin-left: 48%;
+      margin-bottom: 30px;
+      border-bottom: 5px solid brown;
+      width: 20%;
 }
 
 #carousel{
-    margin-left: 40%;
+    margin-left: 46%;
     margin-bottom: 50px;
 }
 
   .caro img{
-    width:300px;
-    height: 600px;
+    width:200px;
+    height: 500px;
     
   }
   
   .carousel-control-prev {
-    left: -20px;
+    left: -40px;
+    
   }
   
   .carousel-control-next {
-    right: -20px;
+    right: -40px;
   }
-
+.gallary{
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: #fff;
+  padding-top: 10px;
+}
 .gallary h2{
-    margin-left: 47%;
+  padding: 20px;
+  margin-left: 48%;
+  margin-bottom: 30px;
+  border-bottom: 5px solid brown;
+  width: 12%;
+   /* margin-left: 47%;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 10px;*/
 }
 
   .images{
     display: flex;
    justify-content: center;
+   border-radius: 3px;
     
   }
   
@@ -216,24 +289,36 @@ margin-bottom: 100px;
   }
 
   .find-us{
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
   }
   #fi{
-    margin-left: 47%;
-    margin-bottom: 50px;
+    padding: 20px;
+    margin-left: 48%;
+    margin-bottom: 30px;
+    border-bottom: 5px solid brown;
+    width: 12%;
+    /*margin-left: 47%;
+    margin-bottom: 50px;*/
   }
   
   .find {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 0px 250px 30px;
+    /*margin-left: 200px;
+    margin-right: 200px;*/
   }
   
   .map-container {
     flex: 1;
     margin: 0 20px;
+    
     
   }
   
@@ -255,7 +340,11 @@ margin-bottom: 100px;
   .foot{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0px 50px;
     
   }
   .foot img{
@@ -266,139 +355,230 @@ margin-bottom: 100px;
     width: 30px;
     height: 30px;
   }
+
+
+
+  
   @media only screen and (max-width: 768px) {
-    /* Header */
-    .brand h1 {
+   nav{
+    flex-direction: column;
+    align-items: center;
+   }
+   
+  .brand h1 {
       font-size: 20px;
       
   }
-
-
-  /* About Us */
   .about-image {
       width: 100%;
       float: none;
       height: auto;
   }
     
-  .banner {
-    min-height: 200px; /* Adjust as needed for smaller screens */
+  #banner {
+    min-height: 200px; 
+    padding: 0px 50px;
    
-}
-    
-
-    /* Banner */
-    
-
+} 
     .head,
     .para {
         width: auto;
         height: auto;
-        margin: 20px;
+        margin: 2px;
     }
 
-    .banner h2 {
-        font-size: 30px;
+    #banner h2 {
+        font-size: 18px;
+    }
+    #banner p{
+      font-size: 10px;
+      width: 300px;
+      height: 100px;
+     
     }
 
     .line,
     .line2 {
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
-    /* About Us */
+    .about-us{
+      min-width: 300px;
+      height: auto;
+    }
     .about-us > h2 {
-        margin-left: auto;
-        text-align: center;
+      font-size: 20px;
+      padding: 10px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid brown;
+    width: 18%;
+     
+        
     }
 
    
 
     #block {
-      display: inline-block;
-        margin: 20px;
-        justify-content: center;
+      flex-direction: column;
+      align-items: stretch;
+      padding:0px 50px;
+     
+    }
+    #block p{
+      width: 300px;
+     /* padding: 0px 20px;*/
     }
 
     .about-image img {
         width: 200px;
-        height: auto;
+      /* padding-right: 200px;
+      margin-bottom: 30px;*/
     }
 
-    /* Menu */
+   .menu{
+    min-width: 300px;
+    height: auto;
+   }
     .menu > h2 {
-        margin-left: auto;
-        text-align: center;
+      font-size: 20px;
+     
+      padding: 10px;
+    margin-left: 45%;
+    margin-bottom: 10px;
+    border-bottom: 3px solid brown;
+    width: 18%;
+    
+        
     }
-
-    .menu > p {
-        margin: 20px;
-        text-align: center;
-    }
-
+    
+    
+      .menu>p{
+  
+        margin-bottom: 20px;
+        padding: 0px  50px 10px;
+     
+     }
+     
     .menu-item {
-        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 4px;
     }
 
     .item {
-        align-self: center;
+       
+       
+        padding: 0px 50px;
+       /* padding-bottom: 10px;
+        margin-bottom: 20px;*/
     }
 
     .menu-item img {
-        width: 100%;
+        width: 100px;
         height: auto;
+        padding-left: 20px;
     }
-
-    /* Carousel */
+  .con{
+    width:300px;
+    padding: 5px 40px 5px;
+    
+   
+  }
+  
+    
     .caro {
-        width: auto;
-        height: auto;
-        margin: 20px;
+      min-width: 300px;
+      min-height: 300px;
+      padding:0px 100px;
+      padding-left: 90px;
+        
     }
 
     #carousel {
-        margin: auto;
+        
+        font-size: 20px;
+       
+        padding:0px;
+     
+      margin-bottom: 10px;
+      border-bottom: 5px solid brown;
+      width: 40%;
+      padding-bottom: 5px;
+      
     }
 
     .caro img {
-        width: 100%;
-        height: auto;
+        width: 200px;
+        height: 200px;
+        padding-top: 20px;
     }
 
     .carousel-control-prev,
     .carousel-control-next {
-        left: 10px;
-        right: 10px;
+        left: 100px;
+        right: 100px;
     }
-
-    /* Gallery */
+    .gallary{
+      min-width: 300px;
+      padding:0px 200px;
+      padding-left: 100px;
+    }
+    
     .gallary h2 {
-        margin-left: auto;
-        text-align: center;
+       
+        font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 5px solid brown;
+      width: 80%;
+      padding-bottom: 5px;
     }
 
     .images {
-        margin: 20px;
+       
+        flex-direction: column;
+       align-items: center;
+       padding-left: 100px;
     }
-
-    /* Find Us */
+#wra,#wra1{
+  display: flex;
+}
+    
     .find-us {
-        margin: 20px;
-        text-align: center;
+      min-width: 300px;
+      padding:0px 200px;
+      padding-left: 100px;
+    
+       
     }
 
     #fi {
-        margin-left: auto;
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 5px solid brown;
+      width: 80%;
+      padding-bottom: 5px;
     }
 
     .find {
-        margin: 20px;
-        text-align: center;
+      flex-wrap: wrap;
+       
+    }
+    .contact-info{
+      flex-direction: column;
+      min-width: 600px;
+      min-height: 300px;
+      align-items: center;
+      font-size: 12px;
+     
+    }
+    .contact-info:first-child{
+      padding-right: 270px;
     }
 
-    .map-container,
-    .contact-info {
-        margin: 0 20px;
+    .map-container
+     {
+       padding-right: 300px;
+      
     }
 
     .foot {
